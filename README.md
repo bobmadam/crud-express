@@ -1,4 +1,4 @@
-# crud-fastify
+# crud-express
 [![NPM
 version](https://badgen.net/npm/v/express)](https://npmjs.org/package/express)
 
