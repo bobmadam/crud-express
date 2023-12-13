@@ -1,0 +1,15 @@
+{
+  "PORT": 3000,
+  "POSTGRESQL": {
+    "host": "127.0.0.1",
+    "port": 5432,
+    "database": "postgres",
+    "user": "postgres",
+    "password": "postgres",
+    "max": 5
+  },
+  "REDIS": {
+    "host": "127.0.0.1",
+    "port": 6379
+  }
+}
