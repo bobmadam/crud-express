@@ -18,8 +18,8 @@ app.use(bodyParser.json())
 
 // Routes
 app.use('/check/health', (req, res) => res.send('OK'))
-app.use('/profile', middleware.recordHit, profileRoute, middleware.printForwardRequestResponse)
-app.use('/token', middleware.recordHit, tokenRoute, middleware.printForwardRequestResponse)
+app.use('/profile', middleware.recordHit, profileRoute, middleware.printForwardRequestResponse) // PostgreSQL Implementation
+app.use('/token', middleware.recordHit, tokenRoute, middleware.printForwardRequestResponse) // Redis Implementation
 
 const port = config.get('PORT') || 3001
 
