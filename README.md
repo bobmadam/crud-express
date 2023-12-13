@@ -48,3 +48,6 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 - #### Start
 
       $ npm start
+
+- #### Import Collection
+  Import the collection of example payload 
