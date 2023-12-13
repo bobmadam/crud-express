@@ -1,5 +1,6 @@
 # crud-fastify
-[![NPM Version][npm-version-image]][npm-url]
+[![NPM
+version](https://badgen.net/npm/v/express)](https://npmjs.org/package/express)
 
 Example CRUD Express.js with PostgreSQL &amp; Redis
 ---
